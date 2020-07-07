@@ -1,0 +1,270 @@
+body {
+	margin: 0;
+	padding: 0; 
+	font-family: 'Playfair Display', serif;
+}
+
+* {
+	text-decoration: none;
+}
+.header-top {
+ 	height: 140px;
+}
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 90px;
+	display: flex;
+	background-color: #fff;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10vw;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.3);
+	z-index: 1000;
+}
+.nav .logo h3 {
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.nav .link a{
+	margin-right: 24px;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #000;
+	letter-spacing: 1px;
+}
+.nav .link a:last-child {
+	margin-right: 0;
+}
+.nav .link .active {
+	color: #44bd32;
+}
+.header-mein {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 10vw;
+}
+.header-mein h2 {
+	color: #000;
+	font-size: 38px;
+	margin: 0;
+	text-transform: capitalize;
+}
+.header-mein p {
+	font-size: 20px;
+	line-height: 28px
+}
+.header-mein .text-area .span {
+	color: #44bd32;
+}
+.header-mein .btn {
+	width: 120px;
+	background: #44bd32;
+	color: #fff;
+	padding: 14px 20px;
+	border-radius: 40px;
+	margin-top: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.header-mein .btn a{
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize
+}
+.img-area img{
+	width: 100%;
+	height: auto;
+}
+.about {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 10vw;
+	margin-top: 65px;
+}
+.about .img img {
+	width: 100%;
+	height: auto;
+}
+.about .img {
+	width: 40%;
+}
+.about .text {
+	width: 50%;
+}
+.about .text h2 {
+	color: #000;
+	font-size: 40px;
+	margin: 0;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.about .text p {
+	font-size: 20px;
+	line-height: 28px;
+}
+.about .text .span {
+	color: #44bd32;
+}
+.about .btn {
+	width: 120px;
+	background: #44bd32;
+	color: #fff;
+	padding: 14px 20px;
+	border-radius: 40px;
+	margin-top: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.about .btn a{
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize
+}
+.team-area {
+	padding: 0 10vw;
+	overflow: hidden;
+}
+.team-area .text-area {
+	text-align: center;
+	margin-top: 60px;
+}
+.team-area .text-area h2 {
+	text-transform: capitalize;
+	font-size: 35px;
+	color: #000;
+	margin-bottom: 0;
+}
+.team-area .text-area p{
+	margin-bottom: 70px;
+	font-size: 17px;
+	line-height: 28px;
+}
+.team-area .text-area span {
+	color: #44bd32;
+}
+.team-area .container {
+		
+
+}
+.team-area .container h2 {
+	font-size: 16px;
+}
+.team-area .container p {
+	font-size: 14px;
+}
+.team-area .container img {
+	width: 30%;
+	height: auto;
+	margin-top: 25px;
+}
+.team-area .container .center-col img{
+	width: 27%;
+	height: auto;
+}
+.team-area .container .center-col h2 {
+	margin-top: 14px;
+}
+.left-col, .right-col, .center-col {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 3%
+}
+.team-area .container .left-one {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	background: #fff;
+	height: 300px;
+	width: 300px;	
+}
+.contact-us {
+	padding: 4vw 10vw;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+.contact-us .imgD {
+	width: 40%;
+}
+.contact-us .imgD img {
+	width: 100%;
+	height: auto;
+}
+.form {
+	width: 50%;
+}
+.form h2 {
+	text-transform: capitalize;
+	font-size: 35px;
+
+}
+.form .msg {
+	margin-top: 40px;
+}
+.form .span {
+	color: #44bd32;
+}
+.form input {
+	width: 100%;
+	margin: 15px 0;
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	border-bottom: 1px solid #000;
+	font-size: 16px;
+}
+.form .btn {
+	margin-top: 20px;
+	padding: 14px 55px;
+	border-radius: 40px;
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+.footer {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+	background: #f1f2f6
+}
+.footer h2 {
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.footer .link a{
+	margin-right: 50px;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #000;
+	letter-spacing: 1px;
+}
+.footer .link .active {
+	color: #44bd32;
+}
+.footer .copy-v a{
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 12px;
+	text-decoration: none;
+}
+.footer .copy-v {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
